@@ -46,12 +46,12 @@ const state = {
 
 //reload page on reset
 function pageloader(){
-    return location.href = "index1.html?players="+no_players+"&type="+type+"&grid="+grid ;
+    return location.href = "index1.php?players="+no_players+"&type="+type+"&grid="+grid ;
   }
 
 //navigate back to start page
 function refresh(){
-    return location.href = "index.html"
+    return location.href = "index.php"
 }
 
 //hide score board for solo
@@ -367,7 +367,7 @@ const flipCard = card => {
                    
                     <div class="two mt">
                       <button class="reset" onclick="pageloader()" >Restart</button>
-                      <a href="index.html"> <button class="dark" >Set Up New Game</button></a>
+                      <a href="index.php"> <button class="dark" >Set Up New Game</button></a>
                     </div>
                   </div>
                   </div>
@@ -413,7 +413,7 @@ const flipCard = card => {
           </div>
                 <div class="two mt">
                   <button class="reset" onclick="pageloader()" >Restart</button>
-                  <a href="index.html"> <button class="dark" >Set Up New Game</button></a>
+                  <a href="index.php"> <button class="dark" >Set Up New Game</button></a>
                 </div>
               </div>
               </div>
