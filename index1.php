@@ -39,7 +39,7 @@
           Restart
         </button>
        
-        <a href="index.html"> <button class="dark">New Game</button></a>
+        <a href="index.php"> <button class="dark">New Game</button></a>
         <button class="dark" onclick="resumegame()">Resume Game</button>
       </div>
     </div>
