@@ -455,11 +455,7 @@ button {
       .scoretext{
         display: none !important;
       }
-      /* .center.bold{
-        font-size: 25px!important;
-        margin: 5px;
-        font-weight: bold;
-      } */
+     
       .form-body{
         padding: 5px 20px !important;
       }
@@ -474,6 +470,7 @@ button {
         align-items: center !important;
     
     }
+
 
 }
 
@@ -500,5 +497,12 @@ button {
       .scoretext{
         display: none !important;
       }
-   
+      .loop{
+        margin: 0;
+    }
+     /* .center.bold{
+        font-size: 25px!important;
+        margin: 5px;
+        font-weight: bold;
+      } */
 }
