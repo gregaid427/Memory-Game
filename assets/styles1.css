@@ -68,3 +68,6 @@ button {
     gap: 20px;
     flex: 1;
 }
+.loop{
+    margin: 0;
+}
