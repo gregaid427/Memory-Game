@@ -46,12 +46,12 @@ const state = {
 
 //reload page on reset
 function pageloader(){
-    return location.href = "index1.php?players="+no_players+"&type="+type+"&grid="+grid ;
+    return location.href = "index1.html?players="+no_players+"&type="+type+"&grid="+grid ;
   }
 
 //navigate back to start page
 function refresh(){
-    return location.href = "index.php"
+    return location.href = "index.html"
 }
 
 //hide score board for solo
