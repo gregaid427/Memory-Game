@@ -367,7 +367,7 @@ const flipCard = card => {
                    
                     <div class="two mt">
                       <button class="reset" onclick="pageloader()" >Restart</button>
-                      <a href="index.php"> <button class="dark" >Set Up New Game</button></a>
+                      <a href="index.html"> <button class="dark" >Set Up New Game</button></a>
                     </div>
                   </div>
                   </div>
@@ -413,7 +413,7 @@ const flipCard = card => {
           </div>
                 <div class="two mt">
                   <button class="reset" onclick="pageloader()" >Restart</button>
-                  <a href="index.php"> <button class="dark" >Set Up New Game</button></a>
+                  <a href="index.html"> <button class="dark" >Set Up New Game</button></a>
                 </div>
               </div>
               </div>
